@@ -16,7 +16,7 @@ function getNeighbours(y: number, x: number, map: Record<string, boolean>) {
   const h = map[`${y + 1},${x + 1}`];
 
   return [a, b, c, d, e, f, g, h];
-}
+} 
 
 async function main() {
   const input = await getInput();
